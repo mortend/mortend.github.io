@@ -88,7 +88,7 @@ A company developing graphics processing units for embedded and mobile devices (
 
 ### Fuse Open
 
-Open source, cross-platform app development framework for mobile and desktop. Providing a programming language (Uno), markup language (UX), compilers, software libraries, app design tool and other tooling (see [fuseopen.com](https://fuseopen.com/)).
+Open source, cross-platform app development framework for mobile and desktop. Providing a programming language (Uno), markup language (UX), compilers, software libraries, app design tool and more (see [fuseopen.com](https://fuseopen.com/)).
 
 * Lead Developer, Administrator
 * 2018- (ongoing)
@@ -186,13 +186,13 @@ Mobile
 * iOS (native)
 * Fuse Open (self-made)
 * React Native
+* Xamarin
 
 Desktop
 
 * WPF
 * Cocoa
 * Mono / .NET Framework
-* Xamarin
 * GTK
 * Qt
 
@@ -234,14 +234,16 @@ Version Control
 * Git
 * Subversion
 
+Continuous integration
+
+* AppVeyor
+* Travis
+* TeamCity
+
 Package Management
 
 * NPM
 * NuGet
-
-Cryptography
-
-* OpenSSL (RSA)
 
 IDE
 
@@ -272,13 +274,13 @@ Content
 * XML
 * YML
 
+Cryptography
+
+* OpenSSL (RSA)
+
 Database
 
-* MySQL
-
-Cloud
-
-* Firebase
+* MySQL, MariaDB
 
 ## MBTI
 
