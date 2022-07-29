@@ -382,3 +382,7 @@ a:hover, a:focus, a:active {
 .text-faded {
   color: #333 !important;
 }
+
+.bg-light {
+  background-color: #ddd !important;
+}
