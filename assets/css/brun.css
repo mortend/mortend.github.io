@@ -361,6 +361,11 @@ a:hover, a:focus, a:active {
   border-color: #4689CD !important;
 }
 
+.btn-light:hover, .btn-dark:focus, .btn-dark:active {
+  background-color: #EF9308 !important;
+  border-color: #EF9308 !important;
+}
+
 .btn {
   -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
@@ -385,4 +390,8 @@ a:hover, a:focus, a:active {
 
 .bg-light {
   background-color: #ddd !important;
+}
+
+.bg-blue {
+  background-color: #4689CD !important;
 }
