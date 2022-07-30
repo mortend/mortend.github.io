@@ -361,7 +361,9 @@ a:hover, a:focus, a:active {
   border-color: #4689CD !important;
 }
 
-.btn-light:hover, .btn-dark:focus, .btn-dark:active {
+.btn-light:hover, .btn-light:focus, .btn-light:active,
+.btn-dark2:hover, .btn-dark2:focus, .btn-dark2:active {
+  color: #222 !important;
   background-color: #EF9308 !important;
   border-color: #EF9308 !important;
 }
