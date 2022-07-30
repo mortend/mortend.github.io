@@ -397,3 +397,7 @@ a:hover, a:focus, a:active {
 .bg-blue {
   background-color: #4689CD !important;
 }
+
+.service-icon {
+  font-size: 50px;
+}
