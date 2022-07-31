@@ -12,8 +12,8 @@
         />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <title>
-          {% if page.title %}{{ page.title }} | {% elsif post.title %}{{
-          post.title }} | {% endif %}{{ site.title }}
+          {{ site.title }}: {% if page.title %}{{ page.title }}{% elsif
+          post.title %}{{ post.title }}{% endif %}
         </title>
         {% capture description %} {% if page.summary %}{{ page.summary }}{% else
         %}{{ site.description }}{% endif %} {% endcapture %}

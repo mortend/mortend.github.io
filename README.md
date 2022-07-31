@@ -1,4 +1,4 @@
-# Build &amp; Run website
+# <img src="assets/img/logo.png" width="300" alt="Build &amp; Run website" />
 
 ```sh
 bundle install
