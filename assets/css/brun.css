@@ -356,13 +356,18 @@ a:hover, a:focus, a:active {
   color: #fff !important;
 }
 
+.btn-fopen {
+  color: #fff !important;
+  background-color: #9846ef !important;
+  border-color: #fff;
+}
+
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
   background-color: #4689CD !important;
   border-color: #4689CD !important;
 }
 
-.btn-light:hover, .btn-light:focus, .btn-light:active,
-.btn-dark2:hover, .btn-dark2:focus, .btn-dark2:active {
+.btn-light:hover, .btn-light:focus, .btn-light:active {
   color: #222 !important;
   background-color: #EF9308 !important;
   border-color: #EF9308 !important;
