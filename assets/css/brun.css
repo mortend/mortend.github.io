@@ -358,8 +358,8 @@ a:hover, a:focus, a:active {
 
 .btn-fopen {
   color: #fff !important;
-  background-color: #9846ef !important;
-  border-color: #fff;
+  background-color: #343a40 !important;
+  border-color: #343a40;
 }
 
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
