@@ -236,6 +236,22 @@ h6 {
   margin: auto auto 1rem;
 }
 
+.portfolio-item-tl {
+  border-top-left-radius: 12px;
+}
+
+.portfolio-item-tr {
+  border-top-right-radius: 12px;
+}
+
+.portfolio-item-bl {
+  border-bottom-left-radius: 12px;
+}
+
+.portfolio-item-br {
+  border-bottom-right-radius: 12px;
+}
+
 .portfolio-item .caption {
   display: -webkit-box;
   display: -ms-flexbox;
