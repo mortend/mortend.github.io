@@ -40,6 +40,15 @@
     }
   });
 
+  // Zoom and blur the background when scrolling
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    $(".background").css({
+      backgroundSize: (100 + scroll / 8)  + "%",
+      "-webkit-filter": "blur(" + (scroll / 64) + "px)",
+      filter: "blur(" + (scroll / 64) + "px)"
+    });
+  });
 })(jQuery); // End of use strict
 
 // Disable Google Maps scrolling
