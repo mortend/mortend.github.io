@@ -70,6 +70,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  arm64-darwin-23
   x64-mingw32
   x86_64-darwin-21
   x86_64-darwin-23
@@ -77,7 +78,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.9.5)
   jekyll-feed (~> 0.6)
-  kramdown-parser-gfm
+  kramdown-parser-gfm (~> 1.1)
   minima (~> 2.0)
   rexml (~> 3.2)
   tzinfo-data
