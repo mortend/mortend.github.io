@@ -48,6 +48,11 @@
       "-webkit-filter": "blur(" + (scroll / 64) + "px)",
       filter: "blur(" + (scroll / 64) + "px)"
     });
+    // Parallax effect
+    $(".callout").css({
+      backgroundPosition: "center " + Math.round(593 - scroll * 0.33) +  "px",
+      backgroundRepeat: "repeat-y",
+    });
   });
 })(jQuery); // End of use strict
 
