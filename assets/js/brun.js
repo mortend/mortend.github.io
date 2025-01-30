@@ -43,16 +43,33 @@
   // Zoom and blur the background when scrolling
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
+    var height = $(window).height();
+  
     $(".background").css({
-      backgroundSize: (100 + scroll / 8)  + "%",
+      top: -(scroll * 1.111) + "px",
+      opacity: 1 - scroll / (height * 3.333),
       "-webkit-filter": "blur(" + (scroll / 64) + "px)",
       filter: "blur(" + (scroll / 64) + "px)"
     });
+  
     // Parallax effect
-    $(".callout").css({
-      backgroundPosition: "center " + Math.round(593 - scroll * 0.33) +  "px",
-      backgroundRepeat: "repeat-y",
-    });
+    if ($(".callout").length > 0) {
+      var calloutWidth = $(".callout").width();
+      var calloutHeight = $(".callout").height();
+      var calloutStart = $(".callout").offset().top;
+    
+      var parallaxScale = Math.max(1, 2000 / calloutWidth);
+      var parallaxMax = (calloutWidth / 1744) * 1160 - calloutHeight;
+      var parallaxValue = calloutStart - calloutHeight * parallaxScale - height - scroll;
+      var parallaxFactor = Math.min(calloutWidth / calloutHeight * 0.0566, 0.333);
+      var parallaxOffset = Math.max(-parallaxMax, Math.min(0, parallaxValue * parallaxFactor));
+
+      $(".callout").css({
+        backgroundPosition: "center " + parallaxOffset +  "px",
+        backgroundRepeat: "repeat-y",
+        backgroundSize: 100 * parallaxScale + "%"
+      });
+    }
   });
 })(jQuery); // End of use strict
 
