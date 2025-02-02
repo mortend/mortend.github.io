@@ -226,9 +226,16 @@ h6 {
   width: 7rem;
   display: block;
   line-height: 7.5rem;
-  font-size: 2.25rem;
+  font-size: 50px;
   -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 0.15s ease-in-out;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.service-icon:hover {
+  background-color: #4689CD;
+  color: #fff;
 }
 
 .callout {
@@ -306,6 +313,7 @@ h6 {
   }
   .portfolio-item .caption {
     -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+    transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
     -webkit-clip-path: inset(0px);
     clip-path: inset(0px);
   }
@@ -318,6 +326,7 @@ h6 {
   }
   .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
+    transition: -webkit-clip-path 0.25s ease-out;
     -webkit-clip-path: inset(-1px);
     clip-path: inset(-1px);
   }
@@ -351,7 +360,7 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #444;
+  background-color: #4689CD;
   text-decoration: none;
 }
 
@@ -360,7 +369,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #9ABEE2;
+  color: #4689CD;
 }
 
 .btn-primary {
@@ -370,9 +379,9 @@ a:hover, a:focus, a:active {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #444 !important;
-  border-color: #444 !important;
-  color: #EF9308 !important;
+  background-color: #4689CD !important;
+  border-color: #4689CD !important;
+  color: #fff !important;
 }
 
 .btn-secondary {
@@ -382,9 +391,9 @@ a:hover, a:focus, a:active {
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #222 !important;
-  border-color: #222 !important;
-  color: #4689CD !important;
+  background-color: #EF9308 !important;
+  border-color: #EF9308 !important;
+  color: #000 !important;
 }
 
 .btn-dark {
@@ -400,6 +409,7 @@ a:hover, a:focus, a:active {
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
   background-color: #4689CD !important;
   border-color: #4689CD !important;
+  color: #fff !important;
 }
 
 .btn-light:hover, .btn-light:focus, .btn-light:active {
@@ -431,13 +441,9 @@ a:hover, a:focus, a:active {
 }
 
 .bg-light {
-  background-color: #ddd !important;
+  background-color: #ccc !important;
 }
 
 .bg-blue {
   background-color: #4689CD !important;
-}
-
-.service-icon {
-  font-size: 50px;
 }
