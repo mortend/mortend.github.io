@@ -15,14 +15,20 @@
 # in the templates via {{ site.myvariable }}.
 title: brun.sh
 email: mdfornes@gmail.com
-description: Optimizing Your Products since 2018
 
-keywords: software, services, technology, research, development, innovation, solution
+description: Building world-class digital products that inspire and innovate.
+  Specializing in mobile apps, native apps, and web apps, we partner
+  with clients globally to turn ideas into seamless, impactful
+  experiences. Blending technical expertise with creative vision to
+  deliver solutions that drive success. Let’s build the future 🚀✨
+
+keywords: typescript javascript swift kotlin android ios react-native react
+  mobile desktop web native apps unity3d graphics software parsers compilers
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brun.sh" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_username:  mortend
+github_username: mortend
 google_analytics_tracking_id: "UA-180445579-1"
 # Build settings
 markdown: kramdown
