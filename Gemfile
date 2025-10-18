@@ -33,3 +33,9 @@ gem "rexml", "~> 3.2"
 gem "webrick", "~> 1.7"
 
 gem "kramdown-parser-gfm", "~> 1.1"
+
+gem "csv", "~> 3.3"
+
+gem "base64", "~> 0.3.0"
+
+gem "bigdecimal", "~> 3.3"
