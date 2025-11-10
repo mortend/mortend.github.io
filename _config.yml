@@ -14,13 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: brun.sh
-email: mdfornes@gmail.com
+email: hi@brun.sh
 
-description: Building world-class digital products that inspire and innovate.
-  Specializing in mobile apps, native apps, and web apps, we partner
-  with clients globally to turn ideas into seamless, impactful
-  experiences. Blending technical expertise with creative vision to
-  deliver solutions that drive success. Let’s build the future 🚀✨
+description: Build fast, Run reliably, since 2018 🚀✨
 
 keywords: typescript javascript swift kotlin android ios react-native react
   mobile desktop web native apps unity3d graphics software parsers compilers
