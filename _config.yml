@@ -25,7 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://brun.sh" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: mortend
-google_analytics_tracking_id: "G-TJ27G0XF1R"
+google_analytics_tracking_id: "G-099JZQTJP3"
 # Build settings
 markdown: kramdown
 theme: minima
