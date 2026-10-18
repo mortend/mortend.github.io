@@ -382,6 +382,16 @@ footer.footer {
   padding-bottom: 5rem;
 }
 
+.footer-separator {
+  position: relative;
+  top: 2px;
+  color: #9ca5ad;
+  font-size: 1.5em;
+  line-height: 0;
+  vertical-align: -0.08em;
+  margin: 0 0.15em;
+}
+
 footer.footer .social-link {
   display: block;
   height: 4rem;
