@@ -9,6 +9,19 @@
     $(this).toggleClass("active");
   });
 
+  // Explain why the unavailable client cards do not open a link.
+  $(".portfolio-item-unavailable").on("click keydown", function(e) {
+    if (e.type === "keydown" && e.key !== "Enter" && e.key !== " ") return;
+    e.preventDefault();
+    var card = $(this);
+    var hint = card.find(".portfolio-link-hint");
+    clearTimeout(card.data("hintTimeout"));
+    hint.text("Link unavailable").addClass("is-visible");
+    card.data("hintTimeout", setTimeout(function() {
+      hint.removeClass("is-visible").text("");
+    }, 3000));
+  });
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
